@@ -5,7 +5,6 @@ As stationarity is important in using those time series models, we introduced an
 We mainly use Python's library statsmodels to implement all models above and use the ARIMA model to forecast future stock prices.
 
 All datasets in csv are obtained from Yahoo Finance.
-
 The following describe the contents in each notebook.
 
 ## 0. Introduction.ipynb
