@@ -1,10 +1,12 @@
 # Using ARIMA model to forecast returns
-This repository contains a detailed theoretical and practical application to time series analysis models such as AutoRegressive (AR), Moving Average (MA), AutoRegressive Moving Average (ARMA) and AutoRegressive Integrated Moving Average (ARIMA). 
+This repository contains a detailed theoretical and practical application to time series analysis models such as AutoRegressive (AR), Moving Average (MA), AutoRegressive Moving Average (ARMA), AutoRegressive Integrated Moving Average (ARIMA) and AutoRegressive  Fractionally Integrated Moving Average (ARFIMA).
 
-As staionarity is important in using those time series mdodels, ee also introduced and implemented several stationarity tests such as Augmented Dickey-Fuller (ADF) test and KPSS.  
-We use Python's library statsmodels to implement all models above and use the ARIMA model to forecast future stock prices.
+As stationarity is important in using those time series models, we introduced and implemented several stationarity tests such as Augmented Dickey-Fuller (ADF) test and KPSS.
+We mainly use Python's library statsmodels to implement all models above and use the ARIMA model to forecast future stock prices.
 
 All datasets in csv are obtained from Yahoo Finance.
+
+The following describe the contents in each notebook.
 
 ## 0. Introduction.ipynb
 This notebook gives a flavour of how to use ARIMA to predict stock prices. 
